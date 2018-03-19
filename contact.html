@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPM | Contact</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+    
+    <!-- Stylesheet Incorporation -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Candal" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+
+</head>
+<body id="contactpage">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/RPMLogo1.png" alt="Logo" id="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carsforsale.html">Cars For Sale</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    
+    <main role="main">
+        <section class="row">
+            <div class="box1 col-lg-6 col-12 col-md-6">
+                <div class="contact-text">
+                    <div class="contacth1">
+                        <h1>Contact Us</h1>
+                    </div>
+                    <div class="phonehours">
+                        <h2>Phone & Hours</h2>
+                        <p>631-288-0890</p>
+                        <p>Monday-Saturday: 8am-5pm</p>
+                    </div>
+                    <div class="towing">
+                        <h2>24/7 Emergency Towing:</h2>
+                        <p class="annoying">For 24/7 emergency roadside service please call</p><p><b>631-745-1809</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box2 col-lg-6 col-12 col-md-6">
+                <div class="container form-container">
+                        <form class="form-horizontal" action="" method="post">
+                            <fieldset>
+                            <!-- Name input-->
+                            <div class="form-group">
+                                <label class="col-md-4 col-10 control-label" for="name">Name</label>
+                                <div class="col-md-9">
+                                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                                </div>
+                            </div>
+                          
+                            <!-- Email input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="email">Your E-mail</label>
+                                <div class="col-md-9">
+                                    <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                </div>
+                            </div>
+                          
+                            <!-- Message body -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="message">Your message</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="9"></textarea>
+                                </div>
+                            </div>
+                          
+                            <!-- Form actions -->
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
+                            </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                        <!-- Google Map -->
+                
+                    <div id="map" class="container-fluid"></div>
+                    <script>
+                        function initMap() {
+                            var uluru = {lat: 40.82032449999999, lng: -72.66496139999998};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                              zoom: 18,
+                              center: uluru
+                            });
+                            var marker = new google.maps.Marker({
+                              position: uluru,
+                              map: map
+                            });
+                          }
+                    </script>
+                
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="footer-title">
+                        Rubio Premier Motors
+                    </div>
+                    <div class="footer-icons justify-content-between">
+                        <a href="https://www.facebook.com/RubioPremierMotors/">
+                            <img src="images/icons/facebook.png" alt="facebook icon" class="footer-icon1"/>
+                        </a>
+                        <a href="https://www.instagram.com/rubiopremiermotors/">
+                            <img src="images/icons/instagram.png" alt="instagram icon" class="footer-icon2"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+  
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4qG-HZVhy1zmqVXeMwV4y23Qhw9QSRFo&callback=initMap">
+    </script>
+</body>
+</html>

@@ -1,0 +1,538 @@
+/* Reid Rubio Midterm CSS */
+.navbar{
+    background: rgba(0,0,0,0.7) !important;
+}
+
+#logo{
+    width: 13vw;
+    height: auto;
+}
+
+.navbar .nav-link{
+    display: block;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.5em;
+    margin: 0px 8px;
+    color: #fff !important;
+    text-transform: uppercase;
+    
+}
+
+.navbar-nav a {position:relative;}
+    .navbar-nav a:before {content:""; display:block; position:absolute; top: 10; left:0;width:100%; height:100%; padding: 10px; background-color:#3180CA; transform:scaleY(0); transform-origin:bottom; transition:.45s; z-index: -10;}
+    .navbar-nav a:hover:before {transform:scaleY(1);}
+
+ .carousel-item  { 
+    height: 100%;
+ }
+
+.homeblocks{
+    text-align: center;
+    margin-top: 18px;
+    font-family: 'Barlow Semi Condensed',sans-serif;
+}
+
+.homeblocks h2{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.homeblocks p{
+    font-size: 1.1em;
+}
+
+.rounded-circle{
+    margin-bottom: 6px;
+}
+
+.footer{
+    background-color: #ccc;
+    color: #fff;
+}
+
+/* Page 2 CSS */
+#servicespage{
+    background: #fff;
+}
+
+.overlay{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.overlay img{
+    width: 100%;
+    max-height: 95vh;
+    height: auto;
+}
+
+.headertext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    color: white;
+    text-align: center;
+}
+
+.headertext h1{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:5.5em;
+}
+
+.headertext p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.5em;
+    line-height: 30px;
+    margin: 0% 15%;
+}
+.row{
+    margin-right: 0 !important;
+}
+.col-lg-6{
+    width: 100%;
+    padding: none;
+}
+
+.col-lg-6 img{
+    width: 100%;
+    padding-right: none !important;
+}
+
+.col-12 img{
+    width: 100%;
+    padding: none;
+
+}
+.descpic img{
+    box-sizing: none;
+}
+
+.desctext{
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.desctext h2{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 2.2em;
+}
+
+.desctext p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.3em;
+    line-height: 32px;
+}
+.desctext ul{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.3em;
+    line-height: 23px;
+    list-style-type: square;
+}
+
+/* Page 3 CSS */
+
+#cardsforsalepage .card{
+    text-align: center;
+}
+#carsforsalepage .card-title{
+    font-family: 'PT Sans Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+#carsforsalepage .card-text{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.2rem;
+}
+
+#carsforsalepage .card-body{
+    text-align: center;
+}
+
+#carsforsalepage .card{
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+/* Page 4 CSS */
+
+#contactpage .row{
+    padding: 0px;
+}
+
+.box1{
+    background-color: #3682C7;
+    width: 100%;
+    height: 95vh;
+    text-align: center;
+    display: flex;
+}
+
+.box2{
+    background-color: #0A5499;
+    width: 100%;
+    height: 95vh;
+}
+
+.contact-text{
+    width: 100%;
+    margin-top: 25%;
+}
+
+.contact-text h1{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:3.8rem;
+    color: white;
+}
+
+.contacth1{
+    margin-bottom: 6%;
+}
+
+.phonehours{
+    margin-bottom: 5%;
+}
+
+.contact-text h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:2.6rem;
+    text-transform: uppercase;
+    color: #FFAE32;
+}
+
+.contact-text p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 35px;
+}
+
+.form-horizontal{
+    margin-top: 25%;
+    width: 60vw;
+    
+}
+label{
+    display: inline;
+}
+.control-label{
+    color: white;
+    font-family: 'Barlow Semi Condensed',sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+   }
+
+/* Footer CSS */
+
+footer{
+    width: 100%;
+    position: absolute;
+    height: 10vh;
+    background-color: #ccc;
+    padding-top: 1vh;
+}
+
+.footer-title{
+    color: #000;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+.footer-icon1{
+    width: 8vh;
+}
+
+.footer-icon2{
+    width: 7vh;
+}
+
+/* Different Screen Sizes */
+
+@media screen and (max-width: 1092px){
+    .desctext h2{
+        font-size: 1.9em;
+    }
+
+    .desctext p{
+        font-size: 1em;
+        line-height: 25px;
+    }
+
+    .desctext ul li{
+        line-height: 23px;
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width:992px){
+    .col-lg-6,.col-12{
+        padding-right: 0px;
+        padding-left: 0px;   
+    }
+
+    .descimg{
+        padding: none !important;
+        background: cover;
+    }
+
+    .desctext{
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .desctext h2 , p{
+        text-align: center;
+    }
+
+    .desctext h2{
+        font-size: 1.9em;
+    }
+
+    .desctext p{
+        font-size: 1em;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .desctext ul{
+        font-size: 1em;
+        line-height: 32px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .contact-text h1{
+        font-size: 3rem;
+    }
+
+    .contacth1{
+        margin-bottom: 10%;
+    }
+
+    .contact-text h2{
+        font-size: 2.2rem;
+    }
+
+    .phonehours{
+        margin-bottom: 13%;
+    }
+
+    .contact-text p{
+        font-size: 1.4rem;
+    }
+
+   
+    
+}
+
+@media screen and (max-width:768px){
+    #logo{
+        width: 18vw;
+    }
+
+    .headertext{
+        margin-top: 15px;
+    }
+
+    .headertext h1{
+        font-size: 2.5em;
+    }
+
+    .headertext p{
+        font-size: 1.2em;
+    }
+
+    #servicespage *, ::before , ::after{
+        box-sizing: unset;
+    }
+
+    .desctext h2 , p{
+        text-align: center;
+    }
+
+    .desctext h2{
+        font-size: 1.9em;
+    }
+
+    .desctext p{
+        font-size: 1em;
+    }
+
+    .desctext ul{
+        font-size: .6em;
+    }
+
+    #carsforsale .car{
+        flex-wrap: wrap;
+    }
+
+    .navbar-nav a {position:relative;}
+    .navbar-nav a:before {content:""; display:block; position:absolute; top: 5; left:0;width:100%; height:100%; padding: 2px; background-color:#3180CA; transform:scaleY(0); transform-origin:bottom; transition:.45s; z-index: -10;}
+    .navbar-nav a:hover:before {transform:scaleY(1);}
+
+    .contact-text{
+        margin-top: 15%;
+    }
+
+    .contact-text h1{
+        font-size: 5rem;
+    }
+
+    .contacth1{
+        margin-bottom: 6%;
+    }
+
+    .contact-text h2{
+        font-size: 2.2rem;
+    }
+
+    .phonehours{
+        margin-bottom: 8%;
+    }
+
+    .contact-text p{
+        font-size: 1.4rem;
+    }
+
+    .form-horizontal{
+        width: 65vw;
+    }
+    
+    .form-horizontal{
+        margin-top: 16%;
+    }
+        
+}
+
+@media screen and (max-width:576px){
+    #logo{
+        width: 25vw;
+    }
+
+    .headertext h1{
+        margin-top: 25px;
+        font-size: 3em;
+    }
+    
+    .headertext p{
+        display: none; 
+    }
+
+    #servicespage *, ::before , ::after{
+        box-sizing: unset;
+    }
+
+    .desctext h2 , p{
+        text-align: center;
+    }
+
+    .desctext h2{
+        font-size: 1.9em;
+    }
+
+    .desctext p{
+        font-size: 1em;
+    }
+
+    .desctext ul{
+        font-size: 1em;
+    }
+
+    #home .container-fluid::before , ::after{
+        box-sizing: none;
+    }
+
+    #carsforsalepage .container{
+        padding-right: 0px !important;
+    }
+
+    #contactpage .container-fluid{
+        padding-right: none !important;
+    }
+
+    .navbar-nav a {position:relative;}
+    .navbar-nav a:before {content:""; display:block; position:absolute; top: 0; left:3;width:100%; height:100%; padding: 2px; background-color:#3180CA; transform:scaleY(0); transform-origin:bottom; transition:.45s; z-index: -10;}
+    .navbar-nav a:hover:before {transform:scaleY(1);}
+
+    .box1{
+        height: 82vh;
+    }
+
+    .box2{
+        height: 82vh;
+    }
+    .contact-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 22%;
+    }
+
+    .contact-text h1{
+        font-size: 3rem;
+    }
+
+    .contacth1{
+        margin-bottom: 8%;
+    }
+
+    .contact-text h2{
+        font-size: 2rem;
+    }
+
+    .contact-text p{
+        font-size: 1.3rem;
+    }
+
+    .contact-text .annoying{
+        font-size: 1.1rem;
+    }
+
+    .form-horizontal{
+       width: 90vw;
+       margin-left: 4%;
+    }
+    
+    .form-horizontal{
+        margin-top: 12%;
+    }
+
+    footer{
+        height: 8vh;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .footer-icon1{
+        height: 6vh;
+        width: auto;
+    }
+
+    .footer-icon2{
+        height: 5vh;
+        width: auto;
+    }
+    .footer-title{
+        font-size: 1.5rem;
+    }
+}

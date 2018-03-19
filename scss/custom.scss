@@ -1,0 +1,12 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+$container-max-widths: (
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+
+$grid-gutter-width: 0px !default;
