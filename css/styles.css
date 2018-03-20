@@ -15,7 +15,6 @@
     margin: 0px 8px;
     color: #fff !important;
     text-transform: uppercase;
-    
 }
 
 .navbar-nav a {position:relative;}
@@ -49,6 +48,14 @@
 .footer{
     background-color: #ccc;
     color: #fff;
+}
+
+.btn-secondary:hover{
+    background-color: #0A5499; transition: color 1s;
+}
+
+.header-text:hover{
+    color: #0A5499; transition: color 1s;
 }
 
 /* Page 2 CSS */
@@ -97,6 +104,7 @@
 }
 .row{
     margin-right: 0 !important;
+    
 }
 .col-lg-6{
     width: 100%;
@@ -165,6 +173,9 @@
     margin-bottom: 10px;
     padding: 0px;
 }
+
+
+
 
 /* Page 4 CSS */
 
@@ -534,5 +545,13 @@ footer{
     }
     .footer-title{
         font-size: 1.5rem;
+    }
+
+    .row{
+        margin-left: 0 !important;
+    }
+
+    .container{
+        padding-left: 0 !important;
     }
 }
